@@ -1,0 +1,15 @@
+What git command creates a branch?
+git init
+
+What is the difference between a fast-forward and recursive merge?
+fast forward - git can organize them chronologically 
+recursive - commits happening at diff times on diff braches
+
+What git command changes to another branch?
+git checkout
+
+What git command deletes a branch?
+git branch -d or -D 
+
+How do merge conflicts happen?
+when git doesnt know what changes to priorize and needs your input
