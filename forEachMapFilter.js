@@ -5,11 +5,20 @@ function doubleValues (arr){
       
     
     let double = num*2;
-    doubles.push(double);
+    return doubles.push(double);
     
    })
 }
 
 
-
+function showFirstAndLast(arr){
+    let firstAndLast = [];
+    arr.forEach(function(str){
+     
+        firstAndLast.push(str[0]+str.slice(-1));
+        // firstAndLast += str.slice(-1);
+        
+    })
+    return firstAndLast;
+}
   
